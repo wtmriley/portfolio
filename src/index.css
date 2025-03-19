@@ -13,19 +13,19 @@ code {
     monospace;
 }
 
+.card {
+    flex: 0 0 auto;
+    width: 300px;
+    height: 300px;
+    margin: 50px;
+  }
+
 .scrolling-wrapper-flexbox {
   display: flex;
   flex-wrap: nowrap;
   overflow-x: auto;
 
   width: 300%;
-
-  .card {
-    flex: 0 0 auto;
-    width: 300px;
-    height: 300px;
-    margin: 50px;
-  }
 }
 
 .title {
