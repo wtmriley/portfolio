@@ -36,6 +36,7 @@ function App() {
     <h2>Card</h2>
   </div>
 </div>
+  );
 }
 
 export default App;
