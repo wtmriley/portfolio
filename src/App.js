@@ -3,8 +3,6 @@ import './App.css';
 
 function App() {
   return (
-    <link rel="stylesheet" href="port.css">
-
 <h1 class="title">Riley's Portfolio</h1>
 
 <div class="scrolling-wrapper">
