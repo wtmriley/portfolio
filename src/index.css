@@ -20,20 +20,15 @@ code {
     margin: 50px;
   }
 .horizontal-scroll-wrapper {
-  ...
   transform: rotate(-90deg);
   transform-origin: right top;
+  translateY(-100px);
 }
 .horizontal-scroll-wrapper > div {
-  ...
   transform: rotate(90deg);
   transform-origin: right top;
 }
-.horizontal-scroll-wrapper {
-  ...
-  transform:rotate(-90deg) translateY(-100px);
-  ...
-}
+
 .scrolling-wrapper-flexbox {
   display: flex;
   flex-wrap: nowrap;
