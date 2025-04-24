@@ -12,50 +12,58 @@ function Home() {
     }, [activeLink]);
 
     return (
-    <div class="haveTo">
-        <div className="all">
-            <div className="left">
-        <header className="title">
-            <h1> Riley Shinnick</h1>
-        </header>
-        <div className="nav">
-            <div className="navspace">
-                <Link 
-                to="/about" 
-                className={`navspaceText ${activeLink === "/about" ? "active" : ""}`}
-                onClick={() => setActiveLink("/about")}
-                >About</Link>
-                
-                <Link 
-                to="/contact" 
-                className={`${activeLink === "/contact" ? "active" : ""}`}
-                onClick={() => setActiveLink("/contact")}
-                >Contact</Link>
+    <div className="haveTo">
+        <div className="left">
+        
+        </div>
+
+        <div className="middle">
+            <div className="title">
+                Riley Shinnick
+            </div>
+            <div className="subtitle">
+                Designer <br /> + <br /> Developer
+            </div>
+            <div className="nav">
+                <div className="navspace">
+                    <Link 
+                    to="/about" 
+                    className={`navspaceText ${activeLink === "/about" ? "active" : ""}`}
+                    onClick={() => setActiveLink("/about")}
+                    >+ more about me</Link>                       
+                </div>
             </div>
         </div>
-        </div>
-            
+
         <div className="right">
             <div className="scrolling-wrapper">
-                <Link to="/project/1" className="card"><h2>Flash Card Web App</h2>
-            </Link>
-            <Link to="/project/2" className="card">
-                <h2></h2>
-            </Link>
-            <Link to="/project/3" className="card">
-                <h2></h2>
-            </Link>
-            <Link to="/project/4" className="card">
-                <h2></h2>
-            </Link>
-            <Link to="/project/5" className="card">
-                <h2></h2>
-            </Link>
-        </div>    
+
+
+                    <Link to="/project/1" className="card">
+                        <h2>elevator pitch</h2>
+                    </Link>
+
+                    <Link to="/project/2" className="card">
+                        <h2>flash card web app</h2>
+                    </Link>
+
+                    <Link to="/project/3" className="card">
+                        <h2>e-commerce redesign</h2>
+                    </Link>
+
+                    <Link to="/project/4" className="card">
+                        <h2>iPhone game app</h2>
+                    </Link>
+
+
+                </div>
+
+            </div>
         </div>
-        </div>
-    </div>
+
     );
 }
 
 export default Home;
+
+/*<img src="alignedElevatorPitchwText.png" alt="Elevator Pitch" className="elevatorPitchCard"/>*/

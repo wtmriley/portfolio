@@ -1,20 +1,33 @@
 import React from 'react';
 import './index.css';
+import { Link } from "react-router-dom";
 
 function About() {
+    /* put little arrow here for nav */
     return (
-        <div>
+        <div className="mainAbout">
+            <div className="navbar">
+                <div className="navspace">
+                <Link 
+                to="/"
+                className="navspaceText"
+                > Home</Link> 
+                </div>
+            </div>
+
             <div className="about">
-            <h1>About</h1>
+                <h1>About</h1>
+                <h2>Denver, Colorado</h2>
+                <div className="about-details">  
+                <a href="https://github.com/wtmriley" className="aboutLinks" target="_blank">Github</a>
+                /
+                <a href="www.linkedin.com/in/rileyshinnick" className="aboutLinks" target="_blank">Linkedin</a>
+                <h3>wtmriley@gmail.com</h3>
+                </div>
+            </div>
         </div>
-        <div className="about-details">  
-            <h2>Github:</h2>
-            <h2>Linkedin:</h2>
-            <h2>Email:</h2>
-            <h2>Location:</h2>
-            <h2>Resume:</h2>
-        </div>
-        </div>
+        
+
     );
 }
 
