@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../index.css";
+import elevatorImg from "../alignedElevatorPitchwText.png";
 
 function ProjectOne() {
 
@@ -12,11 +13,11 @@ function ProjectOne() {
             </nav>
             <div className="mainProj1">
                 <div className="p1ElevImg">
-                    <img src="alignedElevatorPitchwText.png" alt="Elevator Pitch" className="elevatorPitchCard"/>
+                    <img src={elevatorImg} alt="Elevator Pitch" className="elProjImg1"/>
                 </div>
             </div>
         </div>
     );  
 }
-
+ 
 export default ProjectOne
