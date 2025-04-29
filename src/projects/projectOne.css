@@ -1,12 +1,44 @@
 .headee {
     color: black;
     background-color: #e2eddf;
-    height: 100vh;
-    width: 100vw;
+    grid-column: 2 / 12;
+    overflow: hidden;  
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+}
 
+.p1title {
+    margin-top: 6rem;
+    font-weight: 500;
+}
 
-    justify-content: center;
-    align-items: center;
+.p1subtitle {
+    margin-bottom: 1rem;
+    display: block;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.p1p1deets {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    flex-direction: column;
+    overflow: visible;
+    gap: 1rem;
+    padding-top: 3rem;
+    margin-bottom: 3rem;
+
+}
+
+.p1p1deetsa {
+    flex-direction: column;
+    gap: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    justify-content: left;
+    overflow: hidden;
+    
 }
 
 .mainProj1 {
@@ -33,4 +65,52 @@
 .elProjImg2 {
     width: 60vw;
     max-width: 100%;
+}
+
+.posterimg {
+    justify-content: center;
+    align-items: center;
+    overflow: visible;
+}
+
+
+.posterimg1r {
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    grid-column: 2;
+    overflow: visible
+}
+
+.persona {
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    flex-direction: column;
+    overflow: visible;
+    gap: 1rem;
+    padding-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.personaimg {
+    justify-content: right;
+    align-items: right;
+    overflow: visible;
+    box-sizing: border-box;
+    grid-column: 2;
+    max-width: 100%;
+}
+.personatext {
+    font-size: clamp(0.6rem, 2.2vw, 1.1rem);
+    letter-spacing: 0.3px;
+    font-weight: 300;
+    line-height: 1.5;
+    padding-right: 1rem;
+}
+.personatextr {
+    font-size: clamp(0.8rem, 2.5vw, 1.4rem);
 }

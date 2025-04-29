@@ -68,5 +68,3 @@ function Home() {
 }
 
 export default Home;
-
-/*<img src="alignedElevatorPitchwText.png" alt="Elevator Pitch" className="elevatorPitchCard"/>*/

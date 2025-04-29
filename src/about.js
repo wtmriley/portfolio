@@ -24,6 +24,8 @@ function About() {
                 <a href="www.linkedin.com/in/rileyshinnick" className="aboutLinks" target="_blank">Linkedin</a>
                 <h3>wtmriley@gmail.com</h3>
                 </div>
+                <h2>Storygraph: </h2>
+                <h2>Spotify:</h2>
             </div>
         </div>
         
