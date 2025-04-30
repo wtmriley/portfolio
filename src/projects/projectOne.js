@@ -5,6 +5,7 @@ import elevatorImg from "../alignedElevatorPitchwText.png";
 import elevatorImg2 from "../ElevatorIdeation.png";
 import elevatorimg3 from "../images/p1images/elevator2.png";
 import elevatorimg4 from "../images/p1images/elevatorpitchpersona.png";
+import elevatorimg5 from "../images/p1images/elevato1.png";
 
 function ProjectOne() {
 
@@ -47,13 +48,22 @@ function ProjectOne() {
             </div>
 
             <div className="mainProj1">
-                <div className="p2ElevImg">
+                <div className="p1ElevImg">
                     <img src={elevatorImg2} alt="Elevator Pitch" className="elProjImg2"/>
                 </div>
                 <div className="p1ElevImg">
                     <img src={elevatorImg} alt="Elevator Pitch" className="elProjImg1"/>
                 </div>
+                <div className="p1ElevImg">
+                    <img src={elevatorimg5} alt="Elevator Pitch" className="elProjImg3"/>
+                </div>
+                <div className="ElevSum">
+                    <p className="ElevSum1">
+                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; The Elevator Pitch project aimed to revolutionize the recruitment process by providing a platform where candidates can showcase their personality and skills through short video pitches. Led by a multidisciplinary team of developers as well as product, UX, and graphic designers, the project addressed common challenges faced by both job seekers and recruiters in the recruitment process.
+                    </p>
+                </div>
             </div>
+
         </div>
     );  
 }

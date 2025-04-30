@@ -49,20 +49,17 @@
     justify-content: center;
 }
 
-.p1ElevImg {
 
-    width: 100%;
-}
-.p2ElevImg {
-
-    width: 100%;
-}
 
 .elProjImg1 {
     width: 60vw;
     max-width: 100%;
 }
 .elProjImg2 {
+    width: 60vw;
+    max-width: 100%;
+}
+.elProjImg3 {
     width: 60vw;
     max-width: 100%;
 }
@@ -113,4 +110,22 @@
 }
 .personatextr {
     font-size: clamp(0.8rem, 2.5vw, 1.4rem);
+}
+.elevSum{
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    width: 100%;
+    flex-direction: column;
+    overflow: visible;
+    gap: 1rem;
+    padding-top: 3rem;
+    margin-bottom: 3rem;
+}
+.elevSum1 {
+    font-size: clamp(0.8rem, 2.5vw, 1.4rem);
+    font-weight: 300;
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
