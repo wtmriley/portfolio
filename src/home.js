@@ -55,7 +55,7 @@ function Home() {
                         <h2>iPhone game app</h2>
                     </Link>
 
-                    <Link to="/project/4" className="card">
+                    <Link to="/project/5" className="card">
                         <h2>Graphic Design</h2>
                     </Link>
 

@@ -91,6 +91,7 @@ h3 {
     padding: 2rem;
     overflow-y: auto;
     grid-column: 8 / 11;
+    overflow: visible;
 }
   
 .scrolling-wrapper {
@@ -102,6 +103,7 @@ h3 {
     scroll-behavior: smooth;
     height: 80vh; /* Full viewport height */
     width: 33vw; /* Keep it a narrow column */
+
 }
   
 .card {
@@ -111,9 +113,14 @@ h3 {
     border: 1px solid #ccc;
     border-radius: 8px;
     text-decoration: none;
+    overflow: visible;
 }
 .card:hover {
-    scale: 1.3;
+    scale: 1.2;
+    overflow: visible;
+    margin-bottom: 1.2rem;
+    margin-top: 1.2rem;
+    cursor: pointer;
 }
   
 .mainAbout {
