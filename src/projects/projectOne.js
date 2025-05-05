@@ -26,7 +26,7 @@ function ProjectOne() {
                 <div className="p1p1deetsTitle">
                     <div className="p1p1deetsTitleText">
                         My Contributions
-                    </div>
+                    </div> 
                     <ul className="p1p1deetsa">
                         <li>Logo</li>
                         <li>Candidate side wireframes</li>
@@ -44,23 +44,38 @@ function ProjectOne() {
             <div className="persona">
                 <div className="personatext">
                     <div classname="personatextr">
-                        &nbsp; &nbsp;&nbsp; "As a job candidate, I seek a streamlined and intuitive application process that enables me to find and secure the right position quickly and effortlessly. My ideal experience removes unnecessary barriers, providing a seamless journey from application to employment."
+                        <div className="ptextR">
+                        &nbsp; &nbsp;&nbsp; "As a job candidate,
+                        </div>
+                        I seek a streamlined and intuitive application process that enables me to find and secure the right position quickly and effortlessly. My ideal experience removes unnecessary barriers, providing a seamless journey from application to employment."
                     </div>
                 </div>
                 <img src={elevatorimg4} alt="Elevator Pitch Persona" className="personaimg"/>
             </div>
 
             <div className="mainProj1">
-                <div className="p1ElevImg">
-                    <img src={elevatorImg2} alt="Elevator Pitch" className="elProjImg2"/>
+
+                <div className="ideateDiv">
+                    <div className="ideation">
+                        Ideation
+                    </div>
+                    <div className="p1ElevImg">
+                        <img src={elevatorImg2} alt="Elevator Pitch" className="elProjImg2"/>
+                    </div>
                 </div>
                 
-                <div className="p1ElevImg">
-                    <img src={elevatorimg5} alt="Elevator Pitch" className="elProjImg3"/>
+                <div className="wireDiv">
+                    <div className="wireframes">
+                        wireframes
+                    </div>
+                    <div className="p1ElevImg">
+                        <img src={elevatorimg5} alt="Elevator Pitch" className="elProjImg3"/>
+                    </div>
+                    <div className="p1ElevImg">
+                        <img src={elevatorimg6} alt="Elevator Pitch" className="elProjImg4"/>
+                    </div>
                 </div>
-                <div className="p1ElevImg">
-                    <img src={elevatorimg6} alt="Elevator Pitch" className="elProjImg4"/>
-                </div>
+
                 <div className="ElevSum">
                     <div className="ElevSumLogo">
                         <img src={elevatorImg} alt="Elevator Pitch" className="elProjImg1"/>
