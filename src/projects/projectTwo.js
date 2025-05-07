@@ -25,13 +25,13 @@ function ProjectTwo() {
 
             <div className="footer">
                 <div className="footergroup">
-                <Link to="/project/2" className="footerText">Project Two</Link>
+                <Link to="/project/1" className="footerText">Project One</Link>
                 <Link to="/project/3" className="footerText">Project Three</Link>
                 <Link to="/project/4" className="footerText">Project Four</Link>
                 <Link to="/project/5" className="footerText">Project Five</Link>
                 </div>
             </div>
-            
+
         </div>
     )
 }

@@ -1,3 +1,14 @@
+.all {
+    grid-column: 2 / 12;
+    overflow: hidden;  
+    display: flex;
+    flex-direction: column;
+}
+.p5title {
+    margin-top: 16rem;
+    font-weight: 500;
+    font-size: 2rem;
+}
 .footer {
     margin: 4rem;
     display: flex;

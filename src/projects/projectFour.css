@@ -1,10 +1,48 @@
+.all {
+    grid-column: 2 / 12;
+}
+
+.p4title {
+    margin-top: 16rem;
+    font-weight: 500;
+    font-size: 2rem;
+}
+.p4vid {
+    max-width: 26rem;
+    max-height: 80%;
+    min-width: 80%;
+    min-height: 20rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.p4summary {
+    font-size: clamp(0.8rem, 2.4vw, 1.4rem);
+    font-weight: 300;
+    text-align: justify;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.p4sum {
+    margin: 2rem;
+    margin-top: 4rem;
+    max-width: 100%;
+    font-size: clamp(0.8rem, 2.4vw, 1.4rem);
+    font-weight: 300;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
 .footer {
     margin: 4rem;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-
 }
 .footerText:hover {
     cursor: pointer;
