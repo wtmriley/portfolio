@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.9cc1b02b.css",
+    "main.js": "/portfolio/static/js/main.b07a7d1d.js",
+    "static/media/fold.png": "/portfolio/static/media/fold.91488e14febfc9d77c6c.png",
+    "static/media/Comp-1_2.gif": "/portfolio/static/media/Comp-1_2.37324900bb10d8bc23dd.gif",
+    "static/media/realflashvid.mp4": "/portfolio/static/media/realflashvid.a60c52a1bb468da8f0c9.mp4",
+    "static/media/cityy.png": "/portfolio/static/media/cityy.ccc6d6b96acbb8d760cc.png",
+    "static/media/elevator2.png": "/portfolio/static/media/elevator2.302ebb57482b9abb14a8.png",
+    "static/media/Elevator Pitch7.jpg": "/portfolio/static/media/Elevator Pitch7.daffd7eac42f92f04340.jpg",
+    "static/media/ElevatorIdeation.png": "/portfolio/static/media/ElevatorIdeation.86f0c789fa147b739e39.png",
+    "static/media/empathymapreal.png": "/portfolio/static/media/empathymapreal.5d15aa0bb86c1da449da.png",
+    "static/media/magazine.png": "/portfolio/static/media/magazine.c211a57d3f3a528655ce.png",
+    "static/media/customerpersonareal2.png": "/portfolio/static/media/customerpersonareal2.35e46095bcc9888b7851.png",
+    "static/media/customerjourneyupdatedREAL.png": "/portfolio/static/media/customerjourneyupdatedREAL.83ca3e4436af24d6d609.png",
+    "static/media/myartbaby.gif": "/portfolio/static/media/myartbaby.884ede6e52a3a8b22d21.gif",
+    "static/media/elevato1.png": "/portfolio/static/media/elevato1.9cf8f37083662114b0d8.png",
+    "static/media/trifold2.png": "/portfolio/static/media/trifold2.9631a2cbcb50dea8122c.png",
+    "static/media/wirecart.png": "/portfolio/static/media/wirecart.5794f281610f7fa991e5.png",
+    "static/media/elevatorpitchpersona.png": "/portfolio/static/media/elevatorpitchpersona.001ed3374f6efe48f67f.png",
+    "static/media/trifold.png": "/portfolio/static/media/trifold.9b15070301e9a25cb82d.png",
+    "static/media/wirecheckout.png": "/portfolio/static/media/wirecheckout.505dcdabe32fc84e5fe3.png",
+    "static/media/wiresignup.png": "/portfolio/static/media/wiresignup.96b5184eca811d5016aa.png",
+    "static/media/joahhead.png": "/portfolio/static/media/joahhead.29a065d056ab019fcc9b.png",
+    "static/media/magazinee4.jpg": "/portfolio/static/media/magazinee4.723b2c4cac9b54f4cad8.jpg",
+    "static/media/magazinee5.jpg": "/portfolio/static/media/magazinee5.5179ee23b06e85e64254.jpg",
+    "static/media/magazinee6.jpg": "/portfolio/static/media/magazinee6.78baf49ab49763ab0bbf.jpg",
+    "static/media/magazinee3.jpg": "/portfolio/static/media/magazinee3.b3ffe5dc4c9198ff3a6a.jpg",
+    "static/media/magazinee2.jpg": "/portfolio/static/media/magazinee2.fff3bbff14edcc5e1c2b.jpg",
+    "static/media/alignedElevatorPitchwText.png": "/portfolio/static/media/alignedElevatorPitchwText.1e8d1a95f98e8fd76a11.png",
+    "index.html": "/portfolio/index.html",
+    "main.9cc1b02b.css.map": "/portfolio/static/css/main.9cc1b02b.css.map",
+    "main.b07a7d1d.js.map": "/portfolio/static/js/main.b07a7d1d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9cc1b02b.css",
+    "static/js/main.b07a7d1d.js"
+  ]
+}
