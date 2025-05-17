@@ -45,7 +45,7 @@ function ProjectOne() {
                 <div className="personatext">
                     <div classname="personatextr">
                         <div className="ptextR">
-                        &nbsp; &nbsp;&nbsp; "As a job candidate,
+                        &nbsp; &nbsp; &nbsp; "As a job candidate,
                         </div>
                         I seek a streamlined and intuitive application process that enables me to find and secure the right position quickly and effortlessly. My ideal experience removes unnecessary barriers, providing a seamless journey from application to employment."
                     </div>
@@ -77,11 +77,11 @@ function ProjectOne() {
                 </div>
 
                 <div className="ElevSum">
-                    <div className="ElevSumLogo">
-                        <img src={elevatorImg} alt="Elevator Pitch" className="elProjImg1"/>
-                    </div>
                     <div className="ElevSum1">
                         &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; The Elevator Pitch project aimed to revolutionize the recruitment process by providing a platform where candidates can showcase their personality and skills through short video pitches. Led by a multidisciplinary team of developers as well as product, UX, and graphic designers, the project addressed common challenges faced by both job seekers and recruiters in the recruitment process.
+                    </div>
+                    <div className="ElevSumLogo">
+                        <img src={elevatorImg} alt="Elevator Pitch" className="elProjImg1"/>
                     </div>
                 </div>
             </div>

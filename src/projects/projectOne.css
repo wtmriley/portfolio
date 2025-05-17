@@ -138,7 +138,7 @@
 }
 .ElevSum{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 3fr 2fr;
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
@@ -149,10 +149,14 @@
     margin-bottom: 10rem;
 }
 .ElevSum1 {
-    font-size: clamp(0.5rem, 2.2vw, 1.1rem);
-    font-weight: 350;
-    text-align: right;
-    padding-left: 2rem;
+    font-size: clamp(0.7rem, 2.5vw, 1.5rem);
+    font-weight: 300;
+    text-align: justify;
+    padding-right: 1rem;
+    line-height: 1.5;
+    grid-column: 1;
+    padding-top: 2rem;
+    margin: 1rem;
 }
 
 .ElevSumLogo {
@@ -160,8 +164,8 @@
     align-items: left;
     overflow: visible;
     box-sizing: border-box;
-    grid-column: 1;
-    max-width: 75%;
+    grid-column: 2;
+    max-width: 100%;
 }
 
 .footerText {

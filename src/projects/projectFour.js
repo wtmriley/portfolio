@@ -22,7 +22,7 @@ function ProjectFour() {
             <div className="p4sum">
                 <div className="p4summary">
                     &nbsp; &nbsp; &nbsp;
-                    the reqirement for this project was to create a game app for an iPhone.  the language I used was Swift, and I wrote the app using xCode.
+                    the reqirement for this project was to create a game app for ios devices.  The language I used was Swift, and I wrote the app using xCode.
                 </div>
             </div>
 

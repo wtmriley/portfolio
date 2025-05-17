@@ -62,9 +62,9 @@ function ProjectFive() {
                     </div>
                     <div className="graphicall">
                         <img src={graphic10} alt="Photoshop Art" className="p5img7"></img>
-                        <img src={graphic11} alt="Photoshop Art" className="p5img8"></img>
                         <img src={graphic12} alt="Photoshop Art" className="p5img9"></img>
                     </div>
+                    <img src={graphic11} alt="Photoshop Art" className="p5img8"></img>
                 </div>
 
             </div>

@@ -13,15 +13,81 @@
     margin-bottom: 4rem;
     font-weight: 500;
 }
+.aall {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-top: 4rem;
+    margin-bottom: 8rem;
+}
 .tools {
-    margin-top: 10rem;
     font-weight: 500;
     font-size: clamp(1.2rem, 2.7vw, 1.7rem);
-    margin-bottom: 8rem;
+    margin-top: 2.5rem;
+    grid-column: 1;
+
 }
 .toolsList {
     font-weight: 400;
     font-size: clamp(0.8rem, 2.4vw, 1.4rem);
+}
+.viddemo {
+    margin: 0 auto;
+    flex-direction: column;
+    grid-column: 2;
+    overflow: hidden;
+    display: flex;
+}
+.vid {
+    width: clamp(400px, 75vw, 700px);
+    border: 0.8px;
+    border-style: solid;
+    border-color: #454522;
+    border-bottom: none;
+    border-radius: 8px;
+    
+}
+
+.summary {
+    font-size: clamp(0.8rem, 2.4vw, 1.4rem);
+    font-weight: 300;
+    text-align: justify;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin-bottom: 3rem;
+    line-height: 1.5;
+}
+.githubL {
+    font-weight: 400;
+    font-size: clamp(0.8rem, 2.4vw, 1.4rem);
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    color: black;
+    text-decoration: none;
+}
+.githubLink {
+    font-weight: 400;
+    font-size: clamp(1.2rem, 2.7vw, 1.7rem);
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    color: black;
+    margin: 5rem;
+}
+.githubLink:hover {
+    cursor: pointer;
+    text-decoration: underline;
 }
 .footer {
     margin: 4rem;

@@ -13,10 +13,20 @@ function ProjectOne() {
     return (
         <div className="all">
 
-            <Link to="/">Home</Link>
+            <div className="nav">
+                <Link to="/">Home</Link>
+            </div>
+            
             <div className="titlej">
                 Joah Brown E-Commerce Redesign
             </div>
+
+            <div className="summaryj">
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; I completed a project where I redesigned key aspects of the Joah Brown website based on
+                a hypothetical scenario aimed at improving the user experience. The redesign focused on improving the customer journey, 
+                streamlining the checkout process, and enhancing the user interface for a more enjoyable shopping experience.
+            </div>
+
             <div className="personastuff">
                 
                 <div className="saysdoesetc">

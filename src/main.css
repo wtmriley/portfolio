@@ -47,7 +47,7 @@
     display: flex;
     font-weight: 400;
     font-size: clamp(1.6rem, 2.7vw, 2.2rem);
-    margin-bottom: 10px;
+    margin-bottom: 2rem;
     color: #454522;
     margin-top: 15rem;
 }
@@ -103,6 +103,7 @@ h3 {
     scroll-behavior: smooth;
     height: 80vh; /* Full viewport height */
     width: 33vw; /* Keep it a narrow column */
+   
 
 }
   
