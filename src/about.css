@@ -1,0 +1,87 @@
+.about {
+    margin: 2rem;
+}
+.abouttitle {
+    font-weight: 500;
+    margin: 0.8rem;
+    text-align: center;
+    font-size: clamp(1.6rem, 2.7vw, 2.2rem);
+}
+.aboutLinks {
+    text-decoration: none;
+    color: black;
+}
+.email {
+    font-size: clamp(0.4rem, 2.1vw, 1.2rem);
+    font-weight: 400;
+}
+.aboutlocation {
+    font-size: clamp(0.4rem, 2.1vw, 1.2rem);
+    margin: 0.8rem;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-weight: 300;
+}
+.about-details {
+    font-size: clamp(1.2rem, 2.7vw, 1.7rem);
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-weight: 300;
+    margin-top: 3rem;
+}
+.github {
+    font-size: clamp(1.2rem, 2.7vw, 1.7rem);
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-weight: 300;
+    margin: 0.5rem;
+}
+.github:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.linkedin {
+    font-size: clamp(1.2rem, 2.7vw, 1.7rem);
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-weight: 300;
+    margin: 0.5rem;
+}
+.linkedin:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.storygraph {
+    font-size: clamp(1.2rem, 2.7vw, 1.7rem);
+    text-decoration: none;
+    color: black;
+    font-weight: 300;
+    margin: 0.5rem;
+}
+.storygraph:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.spotify {
+    font-size: clamp(1.2rem, 2.7vw, 1.7rem);
+    text-decoration: none;
+    color: black;
+    margin: 0.5rem;
+}
+.spotify:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.mainAbout {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: clamp(1.2rem, 2.5vw, 1.8rem);
+    width: 100%;
+    height: 100%;
+    grid-column: 1 / 12;
+}

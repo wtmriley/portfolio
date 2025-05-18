@@ -124,28 +124,3 @@ h3 {
     cursor: pointer;
 }
   
-.mainAbout {
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    font-size: clamp(1.2rem, 2.5vw, 1.8rem);
-    width: 100%;
-    height: 100%;
-    grid-column: 1 / 12;
-}
-  
-.about-details {
-    font-size: clamp(1.2rem, 2.5vw, 1.8rem);
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    width: 100%;
-    height: 100%;
-}
-  
-.aboutLinks {
-    font-size: clamp(1.2rem, 2.5vw, 1.8rem);
-    margin: 20px;
-    text-decoration: none;
-}
-  

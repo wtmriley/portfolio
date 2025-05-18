@@ -1,5 +1,5 @@
 import React from 'react';
-import './index.css';
+import './about.css';
 import { Link } from "react-router-dom";
 
 function About() {
@@ -8,28 +8,45 @@ function About() {
         <div className="mainAbout">
             <div className="navbar">
                 <div className="navspace">
-                <Link 
-                to="/"
-                className="navspaceText"
-                > Home</Link> 
+                    <Link to="/" className="navspaceText"> Home </Link> 
                 </div>
             </div>
 
             <div className="about">
-                <h1>About</h1>
-                <h2>Denver, Colorado</h2>
-                <div className="about-details">  
-                <a href="https://github.com/wtmriley" className="aboutLinks" target="_blank">Github</a>
-                /
-                <a href="www.linkedin.com/in/rileyshinnick" className="aboutLinks" target="_blank">Linkedin</a>
-                <h3>wtmriley@gmail.com</h3>
+                <div className="abouttitle">
+                    about me
                 </div>
-                <h2>Storygraph: </h2>
-                <h2>Spotify:</h2>
+
+                <div className="email">
+                    wtmriley@gmail.com
+                </div>
+
+                <div className="aboutlocation">
+                    Denver, Colorado
+                </div>
+
+                <div className="about-details">  
+                    <div className="aboutLinks">
+                        <a href="https://github.com/wtmriley" className="github" target="_blank">
+                        github
+                        </a>
+                        
+                        <a href="www.linkedin.com/in/rileyshinnick" className="linkedin" target="_blank">
+                        linkedin
+                        </a>
+                        
+                        <a href="https://app.thestorygraph.com/profile/wtmriley" className="storygraph" target="_blank" >
+                        storygraph
+                        </a>
+                        
+                        <a href="https://open.spotify.com/user/wtmrileyu?si=6868c047755f4f07" className="spotify" target="_blank">
+                        spotify
+                        </a>
+
+                    </div>
+                </div>
             </div>
         </div>
-        
-
     );
 }
 

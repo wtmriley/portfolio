@@ -40,7 +40,7 @@ function Home() {
 
 
                     <Link to="/project/1" className="card">
-                        <h2>elevator pitch</h2>
+                        <h2>recruitment iPhone app</h2>
                     </Link>
 
                     <Link to="/project/2" className="card">
@@ -48,7 +48,7 @@ function Home() {
                     </Link>
 
                     <Link to="/project/3" className="card">
-                        <h2>e-commerce redesign</h2>
+                        <h2>e-commerce website redesign</h2>
                     </Link>
 
                     <Link to="/project/4" className="card">
