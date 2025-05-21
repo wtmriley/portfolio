@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.9cc1b02b.css",
-    "main.js": "/portfolio/static/js/main.100b833c.js",
+    "main.css": "/portfolio/static/css/main.7bf3b8b5.css",
+    "main.js": "/portfolio/static/js/main.cef40f5a.js",
     "static/media/fold.png": "/portfolio/static/media/fold.91488e14febfc9d77c6c.png",
     "static/media/Comp-1_2.gif": "/portfolio/static/media/Comp-1_2.37324900bb10d8bc23dd.gif",
     "static/media/realflashvid.mp4": "/portfolio/static/media/realflashvid.a60c52a1bb468da8f0c9.mp4",
     "static/media/cityy.png": "/portfolio/static/media/cityy.ccc6d6b96acbb8d760cc.png",
     "static/media/elevator2.png": "/portfolio/static/media/elevator2.302ebb57482b9abb14a8.png",
+    "static/media/game.mp4": "/portfolio/static/media/game.50380e1a3adb91005494.mp4",
     "static/media/Elevator Pitch7.jpg": "/portfolio/static/media/Elevator Pitch7.daffd7eac42f92f04340.jpg",
     "static/media/ElevatorIdeation.png": "/portfolio/static/media/ElevatorIdeation.86f0c789fa147b739e39.png",
     "static/media/empathymapreal.png": "/portfolio/static/media/empathymapreal.5d15aa0bb86c1da449da.png",
@@ -29,11 +30,11 @@
     "static/media/magazinee2.jpg": "/portfolio/static/media/magazinee2.fff3bbff14edcc5e1c2b.jpg",
     "static/media/alignedElevatorPitchwText.png": "/portfolio/static/media/alignedElevatorPitchwText.1e8d1a95f98e8fd76a11.png",
     "index.html": "/portfolio/index.html",
-    "main.9cc1b02b.css.map": "/portfolio/static/css/main.9cc1b02b.css.map",
-    "main.100b833c.js.map": "/portfolio/static/js/main.100b833c.js.map"
+    "main.7bf3b8b5.css.map": "/portfolio/static/css/main.7bf3b8b5.css.map",
+    "main.cef40f5a.js.map": "/portfolio/static/js/main.cef40f5a.js.map"
   },
   "entrypoints": [
-    "static/css/main.9cc1b02b.css",
-    "static/js/main.100b833c.js"
+    "static/css/main.7bf3b8b5.css",
+    "static/js/main.cef40f5a.js"
   ]
 }
