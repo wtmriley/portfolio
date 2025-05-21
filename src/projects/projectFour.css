@@ -7,14 +7,18 @@
     font-weight: 500;
     font-size: 2rem;
 }
+.gamegrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 4rem;
+}
 .p4vid {
-    max-width: 26rem;
-    max-height: 80%;
-    min-width: 80%;
-    min-height: 20rem;
+    max-height: 120%;
+    min-height: 120%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
+    grid-column: 1;
 }
 .p4summary {
     font-size: clamp(0.8rem, 2.4vw, 1.4rem);
@@ -24,10 +28,9 @@
     justify-content: center;
     display: flex;
     flex-direction: column;
+    grid-column: 2;
 }
 .p4sum {
-    margin: 2rem;
-    margin-top: 4rem;
     max-width: 100%;
     font-size: clamp(0.8rem, 2.4vw, 1.4rem);
     font-weight: 300;
@@ -35,6 +38,11 @@
     justify-content: center;
     display: flex;
     flex-direction: column;
+}
+.vide {
+    max-height: 20rem;
+    max-height: 100%;
+    min-height: 100%;
 }
 
 .footer {
