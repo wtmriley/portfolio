@@ -39,7 +39,7 @@ function ProjectTwo() {
             </div>
 
             <div className="githubL">
-                <a href="https://github.com/wtmriley/flashcards" target="_blank" className="githubLink">Github link to files</a>
+                <a href="https://github.com/wtmriley/flashcards" target="_blank" className="githubLink">github link to files</a>
             </div>
 
             <div className="footer">

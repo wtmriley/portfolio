@@ -9,9 +9,12 @@
 }
 
 .title {
-    margin-top: 16rem;
-    margin-bottom: 4rem;
+    justify-content: left;
     font-weight: 500;
+    font-size: clamp(1.6rem, 2.7vw, 2.2rem);
+    margin-bottom: 1.5rem;
+    color: #454522;
+    margin-top: 14rem;
 }
 .aall {
     display: grid;

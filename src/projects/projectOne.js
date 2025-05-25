@@ -47,7 +47,8 @@ function ProjectOne() {
                         <div className="ptextR">
                         &nbsp; &nbsp; &nbsp; "As a job candidate,
                         </div>
-                        I seek a streamlined and intuitive application process that enables me to find and secure the right position quickly and effortlessly. My ideal experience removes unnecessary barriers, providing a seamless journey from application to employment."
+                        I seek a streamlined and intuitive application process that enables me to find and secure the right position quickly and effortlessly.
+                        My ideal experience removes unnecessary barriers, providing a seamless journey from application to employment."
                     </div>
                 </div>
                 <img src={elevatorimg4} alt="Elevator Pitch Persona" className="personaimg"/>

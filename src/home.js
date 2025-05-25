@@ -18,7 +18,7 @@ function Home() {
         </div>
 
         <div className="middle">
-            <div className="title">
+            <div className="titleo">
                 Riley Shinnick
             </div>
             <div className="subtitle">
@@ -56,7 +56,7 @@ function Home() {
                     </Link>
 
                     <Link to="/project/5" className="card">
-                        <h2>Graphic Design</h2>
+                        <h2>graphic design</h2>
                     </Link>
 
                 </div>

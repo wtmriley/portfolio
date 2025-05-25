@@ -15,22 +15,38 @@ function ProjectFour() {
                 iPhone Game App
             </div>
 
+            <div className="p4sum">
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; The requirement for this project was to 
+                <strong> create a game app for iOS devices. </strong> 
+                I used <strong>Swift</strong> and wrote the app using <strong>Xcode</strong>. 
+                Users <strong>rotate and tilt their phone to move the blocks</strong> using gravity. 
+                The goal is for <strong>all the blocks to become the same color.</strong>
+            </div>
+            
             <div className="gamegrid">
                 <div className="p4vid">
                     <video autoPlay muted loop playsInline className="vide">
                         <source src={gamevid} type="video/mp4"></source>
                     </video>
                 </div>
-
-                <div className="p4sum">
-                    <div className="p4summary">
-                        &nbsp; &nbsp; &nbsp;
-                        the reqirement for this project was to create a game app for ios devices. 
-                        The language I used was Swift, and I wrote the app using xCode.
-                        Using gravity, users rotate their phone to move the blocks.
-                        The goal is for all the blocks to be the same color. 
+                <div className="bullets">
+                    <div className="bultitle">
+                        important features
                     </div>
+                    <ul>
+                        <li className="litem">the blocks start changing color after they are all tapped once by another block </li>
+                        <li className="litem">number in the top right counts how many blocks are the same color</li>
+                        <li className="litem">button to restart the game when you win</li>
+                        <li className="litem">the block's movement is caused by the angle of the phone</li>
+                        <li className="litem">when the grey block touches another block, it changes color</li>
+                        <li className="litem">the game ends when all the blocks are the same color</li>
+                        <li className="litem">the hamburger menu gives you the option to restart the game</li>
+                    </ul>
                 </div>
+            </div>
+
+            <div className="p4link">
+                <a href="https://github.com/wtmriley/iPhone-Game-App" target="_blank" className="p4linkText">github link to files</a>
             </div>
 
             <div className="footer">

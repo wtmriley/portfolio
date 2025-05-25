@@ -7,46 +7,77 @@
     font-weight: 500;
     font-size: 2rem;
 }
+.p4sum {
+    font-size: clamp(0.8rem, 2.4vw, 1.4rem);
+    font-weight: 300;
+    grid-column: 2;
+    margin-top: 1.5rem;
+    margin-bottom: 6rem;
+    line-height: 1.5;
+}
+.p4sumb {
+    font-weight: 400;
+    text-align: justify;
+}
+
 .gamegrid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-top: 4rem;
+    height: 70%;
+    margin-bottom: 4rem;
 }
 .p4vid {
-    max-height: 120%;
-    min-height: 120%;
     margin: 0 auto;
-    display: flex;
     flex-direction: column;
     grid-column: 1;
-}
-.p4summary {
-    font-size: clamp(0.8rem, 2.4vw, 1.4rem);
-    font-weight: 300;
-    text-align: justify;
-    align-items: center;
-    justify-content: center;
+    overflow: hidden;
     display: flex;
-    flex-direction: column;
-    grid-column: 2;
-}
-.p4sum {
-    max-width: 100%;
-    font-size: clamp(0.8rem, 2.4vw, 1.4rem);
-    font-weight: 300;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
 }
 .vide {
-    max-height: 20rem;
-    max-height: 100%;
-    min-height: 100%;
+    width: clamp(150px, 30vw, 275px);
+    border: 1px;
+    border-style: solid;
+    border-color: #454522;
+    border-radius: 8px;
 }
 
+.bultitle {
+    font-weight: 400;
+}
+.bullets {
+    margin-top: 4rem;
+    font-size: clamp(0.8rem, 2.4vw, 1.4rem);
+    font-weight: 300;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+}
+.litem {
+    margin-top: 0.5rem;
+}
+
+.p4link {
+    margin-top: 6rem;
+    text-align: center;
+    justify-content: center;
+    font-weight: 400;
+    font-size: clamp(0.8rem, 2.4vw, 1.4rem);
+    text-decoration: none;
+}
+.p4link:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.p4linkText {
+    text-decoration: none;
+    color: #454522;
+}
+
+
 .footer {
-    margin: 4rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
     display: flex;
     flex-direction: row;
     justify-content: center;

@@ -42,14 +42,13 @@
     margin: 50px;
 }
   
-.title { 
+.titleo { 
     justify-content: left;
-    display: flex;
-    font-weight: 400;
+    font-weight: 500;
     font-size: clamp(1.6rem, 2.7vw, 2.2rem);
-    margin-bottom: 2rem;
+    margin-bottom: 2.8rem;
     color: #454522;
-    margin-top: 15rem;
+    margin-top: 14rem;
 }
   
 .subtitle {
