@@ -1,5 +1,20 @@
+.mainAbout {
+    grid-column: 2 / 12;
+    font-size: clamp(1.2rem, 2.5vw, 1.8rem);
+
+}
 .about {
-    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* vertical centering */
+    align-items: center;     /* horizontal centering */
+    text-align: center;
+    margin: 4rem auto;
+    padding: 2rem;
+}
+.aboutst {
+    font-size: clamp(0.8rem, 2.4vw, 1.4rem);
+    font-weight: 500;
 }
 .abouttitle {
     font-weight: 500;
@@ -22,6 +37,21 @@
     text-decoration: none;
     color: black;
     font-weight: 300;
+}
+.aboutsummary {
+    font-size: clamp(0.4rem, 2.1vw, 1.2rem);
+    text-align: justify;
+    color: black;
+    font-weight: 300;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    line-height: 1.5;
+    align-items: center;
+    justify-content: center;
+}
+strong {
+    font-weight: 500;
+    color: #2d2f2d;
 }
 .about-details {
     font-size: clamp(1.2rem, 2.7vw, 1.7rem);
@@ -75,13 +105,4 @@
 .spotify:hover {
     cursor: pointer;
     text-decoration: underline;
-}
-.mainAbout {
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    font-size: clamp(1.2rem, 2.5vw, 1.8rem);
-    width: 100%;
-    height: 100%;
-    grid-column: 1 / 12;
 }
