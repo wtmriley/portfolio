@@ -14,7 +14,8 @@
 }
 .aboutst {
     font-size: clamp(0.8rem, 2.4vw, 1.4rem);
-    font-weight: 500;
+    font-weight: 600;
+    
 }
 .abouttitle {
     font-weight: 500;
@@ -24,7 +25,7 @@
 }
 .aboutLinks {
     text-decoration: none;
-    color: black;
+    color: #233929;
 }
 .email {
     font-size: clamp(0.4rem, 2.1vw, 1.2rem);
@@ -35,19 +36,28 @@
     margin: 0.8rem;
     text-align: center;
     text-decoration: none;
-    color: black;
+    color: #233929;
     font-weight: 300;
 }
 .aboutsummary {
     font-size: clamp(0.4rem, 2.1vw, 1.2rem);
     text-align: justify;
-    color: black;
+    color: #233929;
     font-weight: 300;
     margin-top: 3rem;
     margin-bottom: 3rem;
-    line-height: 1.5;
+    line-height: 1.6;
     align-items: center;
     justify-content: center;
+    text-decoration: none;
+}
+.aboutsummary a {
+    color: #233929;
+    margin: 2px;
+}
+.aboutsummary a:hover {
+    text-decoration: underline;
+    color: #233929;
 }
 strong {
     font-weight: 500;
@@ -57,7 +67,7 @@ strong {
     font-size: clamp(1.2rem, 2.7vw, 1.7rem);
     text-decoration: none;
     text-align: center;
-    color: black;
+    color: #233929;
     font-weight: 300;
     margin-top: 3rem;
 }
@@ -67,11 +77,12 @@ strong {
     text-align: center;
     color: black;
     font-weight: 300;
-    margin: 0.5rem;
+    margin-right: 2rem;
 }
 .github:hover {
     cursor: pointer;
     text-decoration: underline;
+    color: #233929;
 }
 .linkedin {
     font-size: clamp(1.2rem, 2.7vw, 1.7rem);
@@ -79,11 +90,12 @@ strong {
     text-align: center;
     color: black;
     font-weight: 300;
-    margin: 0.5rem;
+    margin-left: 2rem;
 }
 .linkedin:hover {
     cursor: pointer;
     text-decoration: underline;
+    color: #233929;
 }
 .storygraph {
     font-size: clamp(1.2rem, 2.7vw, 1.7rem);
@@ -91,18 +103,38 @@ strong {
     color: black;
     font-weight: 300;
     margin: 0.5rem;
+    transition: all 0.2s ease;
 }
 .storygraph:hover {
     cursor: pointer;
     text-decoration: underline;
+    color: #233929;
 }
 .spotify {
     font-size: clamp(1.2rem, 2.7vw, 1.7rem);
     text-decoration: none;
     color: black;
     margin: 0.5rem;
+    transition: all 0.5s ease;
 }
 .spotify:hover {
     cursor: pointer;
     text-decoration: underline;
+    color: #233929;
+}
+.music {
+    padding: 1px;
+}
+.read {
+    padding: 1px;
+}
+.githubicon {
+    max-width: 1.6rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+.linkedinicon {
+    max-width: 1.6rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
 }
