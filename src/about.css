@@ -45,7 +45,7 @@
     color: #233929;
     font-weight: 300;
     margin-top: 3rem;
-    margin-bottom: 3rem;
+    margin-bottom: 4rem;
     line-height: 1.6;
     align-items: center;
     justify-content: center;
@@ -69,7 +69,8 @@ strong {
     text-align: center;
     color: #233929;
     font-weight: 300;
-    margin-top: 3rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
 }
 .github {
     font-size: clamp(1.2rem, 2.7vw, 1.7rem);
@@ -113,7 +114,7 @@ strong {
 .spotify {
     font-size: clamp(1.2rem, 2.7vw, 1.7rem);
     text-decoration: none;
-    color: black;
+    color: #233929;
     margin: 0.5rem;
     transition: all 0.5s ease;
 }
@@ -123,10 +124,10 @@ strong {
     color: #233929;
 }
 .music {
-    padding: 1px;
+    padding: 0 0.25rem;
 }
 .read {
-    padding: 1px;
+    padding: 0 0.25rem;
 }
 .githubicon {
     max-width: 1.6rem;
@@ -137,4 +138,13 @@ strong {
     max-width: 1.6rem;
     margin-left: 0.5rem;
     margin-right: 0.5rem;
+}
+.hr {
+    border: none;
+    color: #233929;
+    margin: 4rem 0;
+    height: 1px;
+    background-color: #233929;
+    opacity: 0.3;
+
 }
