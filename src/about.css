@@ -14,11 +14,11 @@
 }
 .aboutst {
     font-size: clamp(0.8rem, 2.4vw, 1.4rem);
-    font-weight: 600;
+    font-weight: 400;
     
 }
 .abouttitle {
-    font-weight: 500;
+    font-weight: 400;
     margin: 0.8rem;
     text-align: center;
     font-size: clamp(1.6rem, 2.7vw, 2.2rem);
@@ -44,8 +44,7 @@
     text-align: justify;
     color: #233929;
     font-weight: 300;
-    margin-top: 3rem;
-    margin-bottom: 4rem;
+    margin-top: 4rem;
     line-height: 1.6;
     align-items: center;
     justify-content: center;
@@ -69,8 +68,7 @@ strong {
     text-align: center;
     color: #233929;
     font-weight: 300;
-    margin-top: 4rem;
-    margin-bottom: 4rem;
+
 }
 .github {
     font-size: clamp(1.2rem, 2.7vw, 1.7rem);
@@ -124,10 +122,10 @@ strong {
     color: #233929;
 }
 .music {
-    padding: 0 0.25rem;
+    padding: 0 0.1rem;
 }
 .read {
-    padding: 0 0.25rem;
+    padding: 0 0.1rem;;
 }
 .githubicon {
     max-width: 1.6rem;
@@ -146,5 +144,23 @@ strong {
     height: 1px;
     background-color: #233929;
     opacity: 0.3;
+
+}
+
+@media (max-width: 600px) {
+    .aboutsummary {
+      margin-top: 1.5rem;
+      padding: 1rem;
+    }
+
+    .aboutLinks {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .github, .linkedin {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+  }
 
 }
